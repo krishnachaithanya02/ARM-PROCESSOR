@@ -2,7 +2,7 @@
 
 int main()
 {
-    asm volatile("NO OPERATION");
+    __asm volatile("NO OPERATION");
 
     return 0;
 }
